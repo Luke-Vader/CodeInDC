@@ -1,0 +1,8 @@
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\FirstProject\bin\Debug\FirstProject.exe.config
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\FirstProject\bin\Debug\FirstProject.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\FirstProject\bin\Debug\FirstProject.pdb
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\FirstProject\obj\Debug\FirstProject.csproj.AssemblyReference.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\FirstProject\obj\Debug\FirstProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\FirstProject\obj\Debug\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\FirstProject\obj\Debug\FirstProject.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\FirstProject\obj\Debug\FirstProject.pdb
