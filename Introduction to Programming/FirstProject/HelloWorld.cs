@@ -9,7 +9,7 @@ namespace FirstProject
 {
     class HelloWorld
     {
-        static void Main(string[] args)
+        static void Main()
         //program execution will start from this method.
         {
             WriteLine("Hello World");
@@ -17,6 +17,7 @@ namespace FirstProject
             //Console.WriteLine("BC");
             WriteLine(4567);
             WriteLine("****");
+            WriteLine("2 + 3 = " + (2 + 3));
             ReadKey();
         }
     }
