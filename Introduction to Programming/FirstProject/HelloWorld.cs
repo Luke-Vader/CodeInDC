@@ -4,7 +4,7 @@
 using static System.Console;
 //This makes Console class functions accessible
 
-namespace FirstProject        
+namespace FirstProject
 //A Collection of classes(namespace) in this case FirstProject is user defined namespace.
 {
     class HelloWorld

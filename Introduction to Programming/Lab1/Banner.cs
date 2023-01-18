@@ -2,9 +2,9 @@
 
 using static System.Console;
 
-namespace Lab1
+namespace Lab1_PEQ2
 {
-    internal class PE_Q2
+    internal class Banner
     {
         static void Main(string[] args)
         {
