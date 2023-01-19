@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/bin/Debug/net7.0/Lab1_PEQ3
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/bin/Debug/net7.0/Lab1_PEQ3.deps.json
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/bin/Debug/net7.0/Lab1_PEQ3.runtimeconfig.json
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/bin/Debug/net7.0/Lab1_PEQ3.dll
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/bin/Debug/net7.0/Lab1_PEQ3.pdb
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/Lab1_PEQ3.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/Lab1_PEQ3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/Lab1_PEQ3.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/Lab1_PEQ3.AssemblyInfo.cs
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/Lab1_PEQ3.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/Lab1_PEQ3.dll
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/refint/Lab1_PEQ3.dll
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/Lab1_PEQ3.pdb
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/Lab1_PEQ3.genruntimeconfig.cache
+/Users/rishabhbanerjee/Projects/Lab1_PEQ3/Lab1_PEQ3/obj/Debug/net7.0/ref/Lab1_PEQ3.dll
