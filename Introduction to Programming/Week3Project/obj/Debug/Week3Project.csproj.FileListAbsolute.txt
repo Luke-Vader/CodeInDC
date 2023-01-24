@@ -1,0 +1,8 @@
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Week3Project\bin\Debug\Week3Project.exe.config
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Week3Project\bin\Debug\Week3Project.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Week3Project\bin\Debug\Week3Project.pdb
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Week3Project\obj\Debug\Week3Project.csproj.AssemblyReference.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Week3Project\obj\Debug\Week3Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Week3Project\obj\Debug\Week3Project.csproj.CoreCompileInputs.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Week3Project\obj\Debug\Week3Project.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Week3Project\obj\Debug\Week3Project.pdb
