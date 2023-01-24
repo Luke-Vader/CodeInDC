@@ -8,11 +8,12 @@ namespace TempConv
         static void Main(string[] args)
         {
             //data declarations
-            int celsius;
-            float farenheit;
+            int celsius = 32;
+            float farenheit = ((float)celsius * 9)/5 + 32;
 
-            WriteLine("\t\tTemperature Conversion App\nEnter Temperature:");
-            ReadLine(celsius);
+            WriteLine($"\t\tTemperature Conversion App\n" +
+                $"Degree Celsius: {celsius}\n" +
+                $"Degree Fahrenheit: {farenheit:f1}\n");
 
         }
     }
