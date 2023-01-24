@@ -13,7 +13,7 @@ namespace DistConv
             WriteLine($"\t\tDistance Converter App\nMiles: {miles:f2}" +
                 $"\n\t\tEquivalent Values\nFeet: {feet:n0}" +
                 $"\nKilometres: {km:f2}");
-            WriteLine();
+            ReadKey();
         }
     }
 }

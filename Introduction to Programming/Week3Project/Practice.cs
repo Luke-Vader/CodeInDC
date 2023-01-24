@@ -37,8 +37,23 @@ namespace Week3Project
             int b = 33;
             double result = a / b;      //This would give an integer as a result because C#
             WriteLine("a/b = " + result);
+            Practice.DisplayInstruction();
+            WriteLine("Entered Width: " + GetWidth());
 
+        }//end of Main()
 
+        static void DisplayInstruction()
+        {
+            WriteLine("Instructions");
+        }
+
+        static double GetWidth()
+        {
+            Write("Enter Width: ");
+            string line = ReadLine();
+            double width = double.Parse(line);
+            /*WriteLine($"Entered Width: {width:f1}");*/
+            return width;
         }
     }
 }
