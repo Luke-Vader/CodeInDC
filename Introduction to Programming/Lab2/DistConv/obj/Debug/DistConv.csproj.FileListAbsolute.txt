@@ -1,0 +1,8 @@
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab2\DistConv\bin\Debug\DistConv.exe.config
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab2\DistConv\bin\Debug\DistConv.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab2\DistConv\bin\Debug\DistConv.pdb
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab2\DistConv\obj\Debug\DistConv.csproj.AssemblyReference.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab2\DistConv\obj\Debug\DistConv.csproj.SuggestedBindingRedirects.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab2\DistConv\obj\Debug\DistConv.csproj.CoreCompileInputs.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab2\DistConv\obj\Debug\DistConv.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab2\DistConv\obj\Debug\DistConv.pdb
