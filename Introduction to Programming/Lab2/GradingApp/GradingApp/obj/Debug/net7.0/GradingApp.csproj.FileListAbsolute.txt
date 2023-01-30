@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/bin/Debug/net7.0/GradingApp
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/bin/Debug/net7.0/GradingApp.deps.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/bin/Debug/net7.0/GradingApp.runtimeconfig.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/bin/Debug/net7.0/GradingApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/bin/Debug/net7.0/GradingApp.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/GradingApp.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/GradingApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/GradingApp.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/GradingApp.AssemblyInfo.cs
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/GradingApp.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/GradingApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/refint/GradingApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/GradingApp.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/GradingApp.genruntimeconfig.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab2/GradingApp/GradingApp/obj/Debug/net7.0/ref/GradingApp.dll
