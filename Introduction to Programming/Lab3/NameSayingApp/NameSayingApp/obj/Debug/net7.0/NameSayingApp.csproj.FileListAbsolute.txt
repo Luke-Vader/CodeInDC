@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/bin/Debug/net7.0/NameSayingApp
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/bin/Debug/net7.0/NameSayingApp.deps.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/bin/Debug/net7.0/NameSayingApp.runtimeconfig.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/bin/Debug/net7.0/NameSayingApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/bin/Debug/net7.0/NameSayingApp.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/NameSayingApp.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/NameSayingApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/NameSayingApp.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/NameSayingApp.AssemblyInfo.cs
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/NameSayingApp.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/NameSayingApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/refint/NameSayingApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/NameSayingApp.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/NameSayingApp.genruntimeconfig.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/NameSayingApp/NameSayingApp/obj/Debug/net7.0/ref/NameSayingApp.dll

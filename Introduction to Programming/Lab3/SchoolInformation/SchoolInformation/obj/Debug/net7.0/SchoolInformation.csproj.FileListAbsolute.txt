@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/bin/Debug/net7.0/SchoolInformation
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/bin/Debug/net7.0/SchoolInformation.deps.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/bin/Debug/net7.0/SchoolInformation.runtimeconfig.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/bin/Debug/net7.0/SchoolInformation.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/bin/Debug/net7.0/SchoolInformation.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/SchoolInformation.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/SchoolInformation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/SchoolInformation.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/SchoolInformation.AssemblyInfo.cs
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/SchoolInformation.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/SchoolInformation.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/refint/SchoolInformation.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/SchoolInformation.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/SchoolInformation.genruntimeconfig.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab3/SchoolInformation/SchoolInformation/obj/Debug/net7.0/ref/SchoolInformation.dll
