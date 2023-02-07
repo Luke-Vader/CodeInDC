@@ -1,0 +1,8 @@
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab4\MotorWayApp\MotorWayApp\bin\Debug\MotorWayApp.exe.config
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab4\MotorWayApp\MotorWayApp\bin\Debug\MotorWayApp.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab4\MotorWayApp\MotorWayApp\bin\Debug\MotorWayApp.pdb
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab4\MotorWayApp\MotorWayApp\obj\Debug\MotorWayApp.csproj.AssemblyReference.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab4\MotorWayApp\MotorWayApp\obj\Debug\MotorWayApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab4\MotorWayApp\MotorWayApp\obj\Debug\MotorWayApp.csproj.CoreCompileInputs.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab4\MotorWayApp\MotorWayApp\obj\Debug\MotorWayApp.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\Lab4\MotorWayApp\MotorWayApp\obj\Debug\MotorWayApp.pdb
