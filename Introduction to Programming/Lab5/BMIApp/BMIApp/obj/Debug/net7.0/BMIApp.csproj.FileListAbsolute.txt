@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/BMIApp.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/BMIApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/BMIApp.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/BMIApp.AssemblyInfo.cs
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/BMIApp.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/bin/Debug/net7.0/BMIApp
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/bin/Debug/net7.0/BMIApp.deps.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/bin/Debug/net7.0/BMIApp.runtimeconfig.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/bin/Debug/net7.0/BMIApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/bin/Debug/net7.0/BMIApp.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/BMIApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/refint/BMIApp.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/BMIApp.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/BMIApp.genruntimeconfig.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Lab5/BMIApp/BMIApp/obj/Debug/net7.0/ref/BMIApp.dll
