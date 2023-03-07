@@ -40,7 +40,7 @@ namespace rishabhA1_1175_01
             employee.CalculateGrossPay(double.Parse(input));
 
             //displaying Employee
-            WriteLine(employee.ToString());
+            WriteLine(employee.ToString());             //ToString() is not required here 
 
             WriteLine("\nPress any key to see the next test...");
             ReadKey();
