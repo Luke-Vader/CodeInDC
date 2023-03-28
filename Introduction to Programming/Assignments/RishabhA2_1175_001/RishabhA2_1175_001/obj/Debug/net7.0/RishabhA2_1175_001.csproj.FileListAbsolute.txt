@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/bin/Debug/net7.0/RishabhA2_1175_001
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/bin/Debug/net7.0/RishabhA2_1175_001.deps.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/bin/Debug/net7.0/RishabhA2_1175_001.runtimeconfig.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/bin/Debug/net7.0/RishabhA2_1175_001.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/bin/Debug/net7.0/RishabhA2_1175_001.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/RishabhA2_1175_001.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/RishabhA2_1175_001.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/RishabhA2_1175_001.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/RishabhA2_1175_001.AssemblyInfo.cs
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/RishabhA2_1175_001.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/RishabhA2_1175_001.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/refint/RishabhA2_1175_001.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/RishabhA2_1175_001.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/RishabhA2_1175_001.genruntimeconfig.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Assignments/RishabhA2_1175_001/RishabhA2_1175_001/obj/Debug/net7.0/ref/RishabhA2_1175_001.dll
