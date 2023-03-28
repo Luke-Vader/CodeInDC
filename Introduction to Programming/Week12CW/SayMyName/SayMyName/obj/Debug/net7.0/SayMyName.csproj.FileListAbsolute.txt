@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/bin/Debug/net7.0/SayMyName
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/bin/Debug/net7.0/SayMyName.deps.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/bin/Debug/net7.0/SayMyName.runtimeconfig.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/bin/Debug/net7.0/SayMyName.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/bin/Debug/net7.0/SayMyName.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/SayMyName.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/SayMyName.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/SayMyName.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/SayMyName.AssemblyInfo.cs
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/SayMyName.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/SayMyName.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/refint/SayMyName.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/SayMyName.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/SayMyName.genruntimeconfig.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/Week12CW/SayMyName/SayMyName/obj/Debug/net7.0/ref/SayMyName.dll
