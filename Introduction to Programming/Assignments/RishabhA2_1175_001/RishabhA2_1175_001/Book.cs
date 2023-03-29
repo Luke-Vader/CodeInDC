@@ -23,6 +23,7 @@ namespace RishabhA2_1175_001
         //default constructor
         public Book() { }
 
+        //getter methods to fetch data
         public string GetId() => this.id;
         public string GetName() => this.name;
         public string GetAuthor() => this.author;
@@ -50,8 +51,10 @@ namespace RishabhA2_1175_001
                 avail += "\n" + location + "\t\t\t" + this.copies[ctr];
                 ctr++;
             }
+
+            //final output statement to display details of book
             return $"Book Id : {this.id} name : {this.name}" +
-                $"\nLocation \t\t Number of Books Available" +
+                $"\nLocation \t\tNumber of Books Available" +
                 $"{avail}" +
                 $"\n\n{total} are the total number of copies" +
                 $"\n{this.locations[max_pos]} has the maximum number of copies";

@@ -13,9 +13,10 @@ namespace RishabhA2_1175_001
             Book[] books = new Book[30];
             string choice;
 
-            do {
+            do
+            {
                 choice = GetChoice();                   //function to display choices and execute relevant actions
-            switch (choice)
+                switch (choice)
                 {
                     case "A":
                         AddBook(ref books);
@@ -38,10 +39,10 @@ namespace RishabhA2_1175_001
                         break;
                 }
             } while (choice != "E");
-
             ReadKey();
         }
 
+        //Choice Display Method
         static string GetChoice()
         {
             Write("\n..................Library Database...................." +
@@ -54,6 +55,7 @@ namespace RishabhA2_1175_001
             return ReadLine();   
         }
 
+        //Method to add books in the array
         static void AddBook(ref Book[] books)
         {
 
@@ -73,6 +75,7 @@ namespace RishabhA2_1175_001
             author = ReadLine();
             Write("Enter the location and number of copies for four locations\n");
 
+            //fetching input from user for 4 locations
             for (int i = 0; i < locations.Length; ++i)
             {
                 Write($"Enter location {i+1}: ");
@@ -81,6 +84,7 @@ namespace RishabhA2_1175_001
                 copies[i] = int.Parse(ReadLine());
             }
 
+            //creating the object to add it to the array
             Book book = new Book(id, name, author, locations, copies);
             if(index == 0)
             {
@@ -94,6 +98,7 @@ namespace RishabhA2_1175_001
 
         }
 
+        //method to search for a book in the array by id
         static void SearchBook(ref Book[] books)
         {
             string id = "";                         //id of book to search
@@ -126,6 +131,7 @@ namespace RishabhA2_1175_001
             
         }
 
+        //method to display all elements in the array 
         static void DisplayAll(ref Book[] books)
         {
 
@@ -136,7 +142,6 @@ namespace RishabhA2_1175_001
             else
             {
                 for(int i = 0; i < index; ++i) Write(books[i].ToString());
-                
             }
 
         }
