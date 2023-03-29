@@ -47,14 +47,14 @@ namespace RishabhA2_1175_001
                     max_pos = ctr;              //max location position 
                 }
                 total += copies[ctr];
-                avail += "\n" + location + "\t\t" + this.copies[ctr];
+                avail += "\n" + location + "\t\t\t" + this.copies[ctr];
                 ctr++;
             }
             return $"Book Id : {this.id} name : {this.name}" +
-                $"Location \t\t Number of Books Available" +
+                $"\nLocation \t\t Number of Books Available" +
                 $"{avail}" +
                 $"\n\n{total} are the total number of copies" +
-                $"\n{this.locations[ctr]} has the maximum number of copies";
+                $"\n{this.locations[max_pos]} has the maximum number of copies";
         }
     }
 }

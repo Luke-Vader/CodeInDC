@@ -11,33 +11,40 @@ namespace RishabhA2_1175_001
         {
             //data declarations
             Book[] books = new Book[30];
+            string choice;
 
-            //function to display choices and execute relevant actions
-            switch (GetChoice())
-            {
-                case "A":
-                    AddBook(ref books);
-                    break;
+            do {
+                choice = GetChoice();                   //function to display choices and execute relevant actions
+            switch (choice)
+                {
+                    case "A":
+                        AddBook(ref books);
+                        break;
 
-                case "S":
-                    SearchBook(ref books);
-                    break;
+                    case "S":
+                        SearchBook(ref books);
+                        break;
 
-                case "D":
-                    DisplayAll(ref books);
-                    break;
+                    case "D":
+                        DisplayAll(ref books);
+                        break;
 
-                default:
-                    Write("Invalid Input");
-                    break;
-            }
+                    case "E":
+                        WriteLine("Goodbye");
+                        break;
+
+                    default:
+                        Write("Invalid Input");
+                        break;
+                }
+            } while (choice != "E");
 
             ReadKey();
         }
 
         static string GetChoice()
         {
-            Write("..................Library Database...................." +
+            Write("\n..................Library Database...................." +
                 "\n\nPlease select an option from the given menu:" +
                 "\n\n\tAdd a book to the database...........enter 'A'" +
                 "\n\tSearch a book in the database........enter 'S'" +
@@ -64,11 +71,11 @@ namespace RishabhA2_1175_001
             name = ReadLine();
             Write("Enter author name: ");
             author = ReadLine();
-            Write("Enter the location and number of copies for four locations");
+            Write("Enter the location and number of copies for four locations\n");
 
             for (int i = 0; i < locations.Length; ++i)
             {
-                Write($"Enter location {i}: ");
+                Write($"Enter location {i+1}: ");
                 locations[i] = ReadLine();
                 Write("Enter the number of copies: ");
                 copies[i] = int.Parse(ReadLine());
@@ -80,9 +87,10 @@ namespace RishabhA2_1175_001
                 books[0] = book;
             } else
             {
-                index++;
                 books[index] = book;
             }
+            index++;
+            WriteLine($"{name}, {author} has been added to the array\n");
 
         }
 
@@ -90,47 +98,45 @@ namespace RishabhA2_1175_001
         {
             string id = "";                         //id of book to search
             Book searchedBook = new Book(); //staging the searched book
-            if(books.Length != 0)
+            if(index != 0)
             {
                 Write("Enter Book ID to search: ");
                 id = ReadLine();
-                int index = 0;
-                    foreach(Book book in books)             //searching array against id
+                for(int i = 0; i < index; ++i)             //searching array against id
+                {
+                    if (books[i].GetId() == id)
                     {
-                        if(book.GetId() == id)
-                        {
-                            searchedBook = book;
-                        }
-                        index++;
-                    }                
+                        searchedBook = books[i];
+                    }
+                }
+
+                //attempting to display searched book
+                if (searchedBook.GetId() == null)
+                {
+                    Write($"Book with {id} was not found");
+                }
+                else
+                {
+                    Write(searchedBook.ToString());
+                }
             } else
             {
                 Write("The array is empty");
             }
-
-            if (searchedBook.GetId() != null)
-            {
-                Write($"Book with {id} was not found");
-            }
-            else
-            {
-                Write(searchedBook.ToString());
-            }
+            
         }
 
         static void DisplayAll(ref Book[] books)
         {
 
-            if(books.Length == 0)
+            if(index == 0)
             {
                 WriteLine("There is no data to display");
             }
             else
             {
-                foreach(Book book in books)
-                {
-                    Write(book.ToString());
-                }
+                for(int i = 0; i < index; ++i) Write(books[i].ToString());
+                
             }
 
         }
