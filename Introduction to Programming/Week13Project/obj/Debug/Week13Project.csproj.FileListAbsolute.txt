@@ -1,0 +1,11 @@
+C:\Users\300374594\Desktop\Week13Project\bin\Debug\Week13Project.exe.config
+C:\Users\300374594\Desktop\Week13Project\bin\Debug\Week13Project.exe
+C:\Users\300374594\Desktop\Week13Project\bin\Debug\Week13Project.pdb
+C:\Users\300374594\Desktop\Week13Project\obj\Debug\Week13Project.csproj.AssemblyReference.cache
+C:\Users\300374594\Desktop\Week13Project\obj\Debug\Week13Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\300374594\Desktop\Week13Project\obj\Debug\Week13Project.Form1.resources
+C:\Users\300374594\Desktop\Week13Project\obj\Debug\Week13Project.Properties.Resources.resources
+C:\Users\300374594\Desktop\Week13Project\obj\Debug\Week13Project.csproj.GenerateResource.cache
+C:\Users\300374594\Desktop\Week13Project\obj\Debug\Week13Project.csproj.CoreCompileInputs.cache
+C:\Users\300374594\Desktop\Week13Project\obj\Debug\Week13Project.exe
+C:\Users\300374594\Desktop\Week13Project\obj\Debug\Week13Project.pdb
