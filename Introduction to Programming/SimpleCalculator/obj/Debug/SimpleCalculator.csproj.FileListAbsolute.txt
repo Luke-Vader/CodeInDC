@@ -1,0 +1,11 @@
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.AssemblyReference.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\obj\Debug\SimpleCalculator.Form1.resources
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\obj\Debug\SimpleCalculator.Properties.Resources.resources
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
