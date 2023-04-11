@@ -22,6 +22,9 @@ namespace PayRollApp
             int dependants;
             double hours;
             string[] name = new string[2];
+            string medical = "";
+            string status = "";
+            double total = 0;
 
             while(!double.TryParse(txtBxHours.Text, out hours))
             {
@@ -49,8 +52,28 @@ namespace PayRollApp
                     txtBxSoc.Text = employee.DetermineSocialSecurity().ToString("c");
                     txtBxFed.Text = employee.DetermineFederalTax().ToString("c");
                     txtBxAgency.Text = employee.DetermineAgencyFee().ToString("c");
-                    txtBxNet.Text = employee.DetermineNet().ToString("c") + 
-                        " Dept: " + listDept.SelectedItem.ToString();
+
+                    if (chkBxBasic.Checked)
+                        medical = "Basic Coverage";
+                    else if (chkBxExtended.Checked)
+                    {
+                        medical = "Extended Coverage";
+                        total = 200;
+                    }
+                    else if (chkBxBasic.Checked == true && chkBxExtended.Checked == true)
+                        medical = "Full Coverage";
+
+                    if (rbContract.Checked)
+                        status = rbContract.Text;
+                    else if (rbFT.Checked)
+                        status = rbFT.Text;
+                    else if (rbPT.Checked)
+                        status = rbPT.Text;
+
+                    txtBxNet.Text = (employee.DetermineNet() + total).ToString("c") +
+                        " Dept: " + listDept.SelectedItem.ToString() 
+                        + " | " + medical 
+                        + " | " + status;
 
                     lblGross.Visible = true;
                     lblSoc.Visible = true;
