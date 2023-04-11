@@ -75,6 +75,8 @@ namespace PayRollApp
                         + " | " + medical 
                         + " | " + status;
 
+                    WriteToFile(employee);
+
                     lblGross.Visible = true;
                     lblSoc.Visible = true;
                     lblAgency.Visible = true;
@@ -107,6 +109,37 @@ namespace PayRollApp
         private void button1_Click(object sender, EventArgs e)
         {
             listDept.Items.Add(txtBxAddDept.Text);
+        }
+
+        static void WriteToFile(Employee employee)
+        {
+            try
+            {
+                StreamWriter sw = new StreamWriter("EmployeeData.txt",true);
+                sw.WriteLine(employee.ToString());
+                sw.Close();
+            }
+            catch (IOException e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+
+        private void btnRead_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StreamReader sr = new StreamReader("EmployeeData.txt");
+                txtBxFileContent.Text = sr.ReadToEnd();
+                string[] sarr = new string[3];
+                sarr = sr.ReadToEnd().Split('\n');
+                listDept.Items.AddRange(sr.ReadToEnd().Split('\n'));
+                sr.Close();
+
+            } catch(IOException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

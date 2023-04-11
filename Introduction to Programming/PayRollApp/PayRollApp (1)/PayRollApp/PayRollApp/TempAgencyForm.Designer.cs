@@ -55,6 +55,8 @@ namespace PayRollApp
             this.rbPT = new System.Windows.Forms.RadioButton();
             this.rbFT = new System.Windows.Forms.RadioButton();
             this.rbContract = new System.Windows.Forms.RadioButton();
+            this.btnRead = new System.Windows.Forms.Button();
+            this.txtBxFileContent = new System.Windows.Forms.TextBox();
             this.grpBxStatus.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -373,6 +375,25 @@ namespace PayRollApp
             this.rbContract.Text = "Contract";
             this.rbContract.UseVisualStyleBackColor = true;
             // 
+            // btnRead
+            // 
+            this.btnRead.ForeColor = System.Drawing.Color.Black;
+            this.btnRead.Location = new System.Drawing.Point(490, 413);
+            this.btnRead.Name = "btnRead";
+            this.btnRead.Size = new System.Drawing.Size(231, 52);
+            this.btnRead.TabIndex = 26;
+            this.btnRead.Text = "Read File";
+            this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
+            // 
+            // txtBxFileContent
+            // 
+            this.txtBxFileContent.Location = new System.Drawing.Point(727, 273);
+            this.txtBxFileContent.Multiline = true;
+            this.txtBxFileContent.Name = "txtBxFileContent";
+            this.txtBxFileContent.Size = new System.Drawing.Size(197, 128);
+            this.txtBxFileContent.TabIndex = 27;
+            // 
             // TempAgencyForm
             // 
             this.AcceptButton = this.btnCalculate;
@@ -380,7 +401,9 @@ namespace PayRollApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.CancelButton = this.btnReset;
-            this.ClientSize = new System.Drawing.Size(871, 626);
+            this.ClientSize = new System.Drawing.Size(936, 626);
+            this.Controls.Add(this.txtBxFileContent);
+            this.Controls.Add(this.btnRead);
             this.Controls.Add(this.grpBxStatus);
             this.Controls.Add(this.chkBxExtended);
             this.Controls.Add(this.chkBxBasic);
@@ -450,6 +473,8 @@ namespace PayRollApp
         private System.Windows.Forms.RadioButton rbContract;
         private System.Windows.Forms.RadioButton rbFT;
         private System.Windows.Forms.RadioButton rbPT;
+        private System.Windows.Forms.Button btnRead;
+        private System.Windows.Forms.TextBox txtBxFileContent;
     }
 }
 
