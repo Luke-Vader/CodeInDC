@@ -1,0 +1,10 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/bin/Debug/BankingRegister.exe.config
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/bin/Debug/BankingRegister.exe
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/bin/Debug/BankingRegister.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/obj/Debug/BankingRegister.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/obj/Debug/BankingRegister.Form1.resources
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/obj/Debug/BankingRegister.Properties.Resources.resources
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/obj/Debug/BankingRegister.csproj.GenerateResource.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/obj/Debug/BankingRegister.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/obj/Debug/BankingRegister.exe
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/BankingRegister/obj/Debug/BankingRegister.pdb
