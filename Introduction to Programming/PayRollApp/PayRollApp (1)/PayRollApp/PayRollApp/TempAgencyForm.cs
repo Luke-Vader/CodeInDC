@@ -22,6 +22,9 @@ namespace PayRollApp
             int dependants;
             double hours;
             string[] name = new string[2];
+            string medical = "";
+            string status = "";
+            double total = 0;
 
             while(!double.TryParse(txtBxHours.Text, out hours))
             {
@@ -49,8 +52,30 @@ namespace PayRollApp
                     txtBxSoc.Text = employee.DetermineSocialSecurity().ToString("c");
                     txtBxFed.Text = employee.DetermineFederalTax().ToString("c");
                     txtBxAgency.Text = employee.DetermineAgencyFee().ToString("c");
-                    txtBxNet.Text = employee.DetermineNet().ToString("c") + 
-                        " Dept: " + listDept.SelectedItem.ToString();
+
+                    if (chkBxBasic.Checked)
+                        medical = "Basic Coverage";
+                    else if (chkBxExtended.Checked)
+                    {
+                        medical = "Extended Coverage";
+                        total = 200;
+                    }
+                    else if (chkBxBasic.Checked == true && chkBxExtended.Checked == true)
+                        medical = "Full Coverage";
+
+                    if (rbContract.Checked)
+                        status = rbContract.Text;
+                    else if (rbFT.Checked)
+                        status = rbFT.Text;
+                    else if (rbPT.Checked)
+                        status = rbPT.Text;
+
+                    txtBxNet.Text = (employee.DetermineNet() + total).ToString("c") +
+                        " Dept: " + listDept.SelectedItem.ToString() 
+                        + " | " + medical 
+                        + " | " + status;
+
+                    WriteToFile(employee);
 
                     lblGross.Visible = true;
                     lblSoc.Visible = true;
@@ -84,6 +109,37 @@ namespace PayRollApp
         private void button1_Click(object sender, EventArgs e)
         {
             listDept.Items.Add(txtBxAddDept.Text);
+        }
+
+        static void WriteToFile(Employee employee)
+        {
+            try
+            {
+                StreamWriter sw = new StreamWriter("EmployeeData.txt",true);
+                sw.WriteLine(employee.ToString());
+                sw.Close();
+            }
+            catch (IOException e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+
+        private void btnRead_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StreamReader sr = new StreamReader("EmployeeData.txt");
+                txtBxFileContent.Text = sr.ReadToEnd();
+                string[] sarr = new string[3];
+                sarr = sr.ReadToEnd().Split('\n');
+                listDept.Items.AddRange(sr.ReadToEnd().Split('\n'));
+                sr.Close();
+
+            } catch(IOException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

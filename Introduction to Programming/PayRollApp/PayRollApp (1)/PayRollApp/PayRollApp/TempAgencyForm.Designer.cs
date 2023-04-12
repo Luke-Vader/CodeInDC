@@ -49,6 +49,15 @@ namespace PayRollApp
             this.lblDepartments = new System.Windows.Forms.Label();
             this.txtBxAddDept = new System.Windows.Forms.TextBox();
             this.btnAddDept = new System.Windows.Forms.Button();
+            this.chkBxBasic = new System.Windows.Forms.CheckBox();
+            this.chkBxExtended = new System.Windows.Forms.CheckBox();
+            this.grpBxStatus = new System.Windows.Forms.GroupBox();
+            this.rbPT = new System.Windows.Forms.RadioButton();
+            this.rbFT = new System.Windows.Forms.RadioButton();
+            this.rbContract = new System.Windows.Forms.RadioButton();
+            this.btnRead = new System.Windows.Forms.Button();
+            this.txtBxFileContent = new System.Windows.Forms.TextBox();
+            this.grpBxStatus.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -228,7 +237,7 @@ namespace PayRollApp
             this.txtBxNet.Location = new System.Drawing.Point(322, 506);
             this.txtBxNet.Margin = new System.Windows.Forms.Padding(5);
             this.txtBxNet.Name = "txtBxNet";
-            this.txtBxNet.Size = new System.Drawing.Size(313, 30);
+            this.txtBxNet.Size = new System.Drawing.Size(369, 30);
             this.txtBxNet.TabIndex = 16;
             this.txtBxNet.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtBxNet.Visible = false;
@@ -302,6 +311,89 @@ namespace PayRollApp
             this.btnAddDept.UseVisualStyleBackColor = true;
             this.btnAddDept.Click += new System.EventHandler(this.button1_Click);
             // 
+            // chkBxBasic
+            // 
+            this.chkBxBasic.AutoSize = true;
+            this.chkBxBasic.Location = new System.Drawing.Point(490, 341);
+            this.chkBxBasic.Name = "chkBxBasic";
+            this.chkBxBasic.Size = new System.Drawing.Size(201, 27);
+            this.chkBxBasic.TabIndex = 23;
+            this.chkBxBasic.Text = "Basic Medical Coverage";
+            this.chkBxBasic.UseVisualStyleBackColor = true;
+            // 
+            // chkBxExtended
+            // 
+            this.chkBxExtended.AutoSize = true;
+            this.chkBxExtended.Location = new System.Drawing.Point(490, 374);
+            this.chkBxExtended.Name = "chkBxExtended";
+            this.chkBxExtended.Size = new System.Drawing.Size(231, 27);
+            this.chkBxExtended.TabIndex = 24;
+            this.chkBxExtended.Text = "Extended Medical Coverage";
+            this.chkBxExtended.UseVisualStyleBackColor = true;
+            // 
+            // grpBxStatus
+            // 
+            this.grpBxStatus.Controls.Add(this.rbContract);
+            this.grpBxStatus.Controls.Add(this.rbFT);
+            this.grpBxStatus.Controls.Add(this.rbPT);
+            this.grpBxStatus.Location = new System.Drawing.Point(659, 69);
+            this.grpBxStatus.Name = "grpBxStatus";
+            this.grpBxStatus.Size = new System.Drawing.Size(200, 172);
+            this.grpBxStatus.TabIndex = 25;
+            this.grpBxStatus.TabStop = false;
+            this.grpBxStatus.Text = "Status";
+            // 
+            // rbPT
+            // 
+            this.rbPT.AutoSize = true;
+            this.rbPT.Location = new System.Drawing.Point(11, 34);
+            this.rbPT.Name = "rbPT";
+            this.rbPT.Size = new System.Drawing.Size(101, 27);
+            this.rbPT.TabIndex = 0;
+            this.rbPT.Text = "Part-Time";
+            this.rbPT.UseVisualStyleBackColor = true;
+            // 
+            // rbFT
+            // 
+            this.rbFT.AutoSize = true;
+            this.rbFT.Checked = true;
+            this.rbFT.Location = new System.Drawing.Point(11, 67);
+            this.rbFT.Name = "rbFT";
+            this.rbFT.Size = new System.Drawing.Size(98, 27);
+            this.rbFT.TabIndex = 1;
+            this.rbFT.TabStop = true;
+            this.rbFT.Text = "Full-Time";
+            this.rbFT.UseVisualStyleBackColor = true;
+            // 
+            // rbContract
+            // 
+            this.rbContract.AutoSize = true;
+            this.rbContract.Location = new System.Drawing.Point(11, 103);
+            this.rbContract.Name = "rbContract";
+            this.rbContract.Size = new System.Drawing.Size(92, 27);
+            this.rbContract.TabIndex = 2;
+            this.rbContract.Text = "Contract";
+            this.rbContract.UseVisualStyleBackColor = true;
+            // 
+            // btnRead
+            // 
+            this.btnRead.ForeColor = System.Drawing.Color.Black;
+            this.btnRead.Location = new System.Drawing.Point(490, 413);
+            this.btnRead.Name = "btnRead";
+            this.btnRead.Size = new System.Drawing.Size(231, 52);
+            this.btnRead.TabIndex = 26;
+            this.btnRead.Text = "Read File";
+            this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
+            // 
+            // txtBxFileContent
+            // 
+            this.txtBxFileContent.Location = new System.Drawing.Point(727, 273);
+            this.txtBxFileContent.Multiline = true;
+            this.txtBxFileContent.Name = "txtBxFileContent";
+            this.txtBxFileContent.Size = new System.Drawing.Size(197, 128);
+            this.txtBxFileContent.TabIndex = 27;
+            // 
             // TempAgencyForm
             // 
             this.AcceptButton = this.btnCalculate;
@@ -309,7 +401,12 @@ namespace PayRollApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.CancelButton = this.btnReset;
-            this.ClientSize = new System.Drawing.Size(690, 626);
+            this.ClientSize = new System.Drawing.Size(936, 626);
+            this.Controls.Add(this.txtBxFileContent);
+            this.Controls.Add(this.btnRead);
+            this.Controls.Add(this.grpBxStatus);
+            this.Controls.Add(this.chkBxExtended);
+            this.Controls.Add(this.chkBxBasic);
             this.Controls.Add(this.btnAddDept);
             this.Controls.Add(this.txtBxAddDept);
             this.Controls.Add(this.lblDepartments);
@@ -337,7 +434,9 @@ namespace PayRollApp
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "TempAgencyForm";
-            this.Text = "Payroll App";
+            this.Text = "  ";
+            this.grpBxStatus.ResumeLayout(false);
+            this.grpBxStatus.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -368,6 +467,14 @@ namespace PayRollApp
         private System.Windows.Forms.Label lblDepartments;
         private System.Windows.Forms.TextBox txtBxAddDept;
         private System.Windows.Forms.Button btnAddDept;
+        private System.Windows.Forms.CheckBox chkBxBasic;
+        private System.Windows.Forms.CheckBox chkBxExtended;
+        private System.Windows.Forms.GroupBox grpBxStatus;
+        private System.Windows.Forms.RadioButton rbContract;
+        private System.Windows.Forms.RadioButton rbFT;
+        private System.Windows.Forms.RadioButton rbPT;
+        private System.Windows.Forms.Button btnRead;
+        private System.Windows.Forms.TextBox txtBxFileContent;
     }
 }
 
