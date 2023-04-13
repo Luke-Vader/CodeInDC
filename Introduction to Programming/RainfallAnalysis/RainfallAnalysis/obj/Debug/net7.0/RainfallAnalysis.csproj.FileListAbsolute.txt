@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/RainfallAnalysis.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/RainfallAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/RainfallAnalysis.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/RainfallAnalysis.AssemblyInfo.cs
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/RainfallAnalysis.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/bin/Debug/net7.0/RainfallAnalysis
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/bin/Debug/net7.0/RainfallAnalysis.deps.json
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/bin/Debug/net7.0/RainfallAnalysis.runtimeconfig.json
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/bin/Debug/net7.0/RainfallAnalysis.dll
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/bin/Debug/net7.0/RainfallAnalysis.pdb
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/RainfallAnalysis.dll
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/refint/RainfallAnalysis.dll
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/RainfallAnalysis.pdb
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/RainfallAnalysis.genruntimeconfig.cache
+/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/Debug/net7.0/ref/RainfallAnalysis.dll
