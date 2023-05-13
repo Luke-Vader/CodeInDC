@@ -8,8 +8,11 @@ public class Second {
         int a;
         int c = myMethod1(5, 6);
 
+        double d = (double)17/2;                    //if the operands are integer the result is also an integer or
+//        double d = 17/2.0;                        //this would also give the same result
+
         System.out.println("Hello again num is " + num);
-        System.out.println(c);
+        System.out.println(d);
 //        System.out.println(myMethod2());
     }
 
