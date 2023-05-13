@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         getUserChoice();
         calculateRent();
-        System.out.println("Total Rental Cost: $" + cost);
+        System.out.printf("\nTotal Rental Cost: $%.2f\n", cost);
     }
 
     static void getUserChoice() {
