@@ -25,7 +25,9 @@ Even though you could upload bug fixes and patches later, it may be too late. Ho
 Cross-Platform
 Advances in information technology imply that there are many platforms to choose from – Mac, Windows, Linux, Android-based operating system, iOS-based system, and so on. For mobile apps, it is hard to find an app that will work across Android and iOS. The best solution to this problem is to ensure that you have a working app for both systems.
 Most Popular Mobile Apps
+
 Top 21 Most Used (and downloaded) Mobile Apps
+
 Most Used Apps in the Wold by Amit Gupta December 27, 2019
 WhatsApp
 Facebook
@@ -48,6 +50,8 @@ Netflix app
 Google+
 Pinterest
 Google Pay (Tez)
+
+
 Mobile Apps Glossary
 Android
 Android is Google’s mobile operating system.
