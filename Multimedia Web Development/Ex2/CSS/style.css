@@ -1,0 +1,29 @@
+span,
+dt {
+	font-weight: bold;
+}
+.ol {
+	/*font-weight: bold;*/
+	font-style: italic;
+}
+/* #img_right {
+	float: left;
+} */
+
+#img_left {
+	float: right;
+	width: 65%;
+}
+
+img {
+	margin-bottom: 120px;
+}
+
+body {
+	background-color: antiquewhite;
+}
+
+nav > a {
+	text-decoration: none;
+	font-size: 18pt;
+}
