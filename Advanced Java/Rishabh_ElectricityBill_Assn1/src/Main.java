@@ -12,11 +12,11 @@ public class Main {
         double units;
         double amount;
 
-        System.out.println("Enter Units Consumed: ");
+        System.out.print("Enter Units Consumed: ");
         units = scan.nextDouble();
         amount = calculateCharge(units);
         if (amount > 0)                     //checking for positive value for valid input
-            System.out.println("Total Bill Amount: $" + String.format("%.2f",amount) );
+            System.out.println("\nTotal Bill Amount: $" + String.format("%.2f",amount) );
     }
 
     //calculates the total amount to be paid according to the breakdown
@@ -34,7 +34,7 @@ public class Main {
         }
 
         //fetching payment plan
-        System.out.println("""
+        System.out.print("""
                 1. Pay within 15 days(10% Discount)
                 0. Pay after 15 days(5% Surcharge)
                 Choose(1-0):""");
