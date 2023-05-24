@@ -41,4 +41,4 @@ FROM employee AS e, assignment AS a, project AS p
 WHERE e.employeenumber = a.employeenumber
 AND a.projectid = p.projectid
 AND ( p.startdate >= '20190705'
-	AND p.enddate >= '20190705')
+	AND p.enddate >= '20190705');
