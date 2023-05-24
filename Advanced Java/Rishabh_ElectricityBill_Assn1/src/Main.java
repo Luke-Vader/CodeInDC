@@ -1,6 +1,6 @@
 //Author: Rishabh Banerjee
 //Date: 05/20/23
-//Calculates the bill amount according to the discount specified.
+//Calculates the bill amount according to the discount/surcharge specified.
 
 import java.util.Scanner;
 
@@ -8,15 +8,35 @@ public class Main {
 
     static Scanner scan = new Scanner(System.in);
 
+    //global constants
+    static final double RATE_LT_200 = 2.5;
+    static final double RATE_LT_500 = 3.5;
+    static final int RATE_GT_500 = 5;
+    static final double DISCOUNT = 0.1;
+    static final double SURCHARGE = 0.05;
+
     public static void main(String[] args) {
         double units;
-        double amount;
+        double amount = 0;
 
         System.out.print("Enter Units Consumed: ");
-        units = scan.nextDouble();
-        amount = calculateCharge(units);
-        if (amount > 0)                     //checking for positive value for valid input
-            System.out.println("\nTotal Bill Amount: $" + String.format("%.2f",amount) );
+        try{
+            units = scan.nextDouble();
+
+            //checking for positive unit value
+            if(units <= 0){
+                System.out.print("Invalid Input (positive value expected)");
+            } else {
+                amount = calculateCharge(units);            //calling method to ask for payment plan and calculate
+                if (amount > 0)                             //checking for calculated amount
+                    System.out.println("\nTotal Bill Amount: $" + String.format("%.2f",amount) );
+                else
+                    System.out.println("Invalid Input");    //invalid plan selection
+            }
+            //exception handling for non double user input
+        } catch (Exception e) {
+            System.out.print("Invalid Input (numeric value expected)");
+        }
     }
 
     //calculates the total amount to be paid according to the breakdown
@@ -26,11 +46,11 @@ public class Main {
 
         //deciding the rate slab
         if (units < 200) {
-            amount = units * 2.5;
+            amount = units * RATE_LT_200;
         } else if (units < 500) {
-            amount = units * 3.5;
+            amount = units * RATE_LT_500;
         } else {
-            amount = units * 5;
+            amount = units * RATE_GT_500;
         }
 
         //fetching payment plan
@@ -42,14 +62,12 @@ public class Main {
 
         //implementing the discount/surcharge according to the payment plan
         if(paymentPlan == 1){
-            amount += amount * 0.05;
+            amount -= amount * DISCOUNT;
         } else if (paymentPlan == 0){
-            amount -= amount * 0.1;
+            amount += amount * SURCHARGE;
         } else {
-            System.out.println("Invalid Input");
-            amount = -1;
+            amount = 0;
         }
-
         return amount;
     }
 
