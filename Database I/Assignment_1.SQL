@@ -28,6 +28,15 @@ where department IN
 	HAVING COUNT(*) > 1)
 ORDER BY department DESC;
 
+--Q4 (Correct)
+SELECT DISTINCT Department, maxhours
+FROM project p1
+WHERE MaxHours = ALL(
+	SELECT MaxHours
+	FROM project p2
+	WHERE p1.Department = p2.Department)
+
+
 --Q5
 SELECT firstname, lastname
 FROM employee AS e, assignment AS a, project AS p
