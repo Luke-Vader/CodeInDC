@@ -1,0 +1,45 @@
+body {
+	background-color: #b6c8eb;
+}
+
+h1 {
+	color: navy;
+	margin-left: 50px;
+}
+
+.logo {
+	width: 50px;
+	height: auto;
+}
+
+.green_title {
+	color: green;
+}
+
+article {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.countries {
+	width: 100%;
+	height: auto;
+}
+
+#left__image {
+	float: left;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+#history__title {
+	color: red;
+}
+
+#prosperity__title {
+	color: blue;
+}
+
+ol li:last-child {
+	color: blue;
+}
