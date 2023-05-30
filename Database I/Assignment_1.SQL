@@ -35,6 +35,14 @@ WHERE MaxHours = ALL(
 	SELECT MaxHours
 	FROM project p2
 	WHERE p1.Department = p2.Department)
+	
+--Q4 (Correct) without DISTINCT to match expectation of Assignment 1	
+SELECT *
+FROM project p1
+WHERE MaxHours = ALL(
+	SELECT MaxHours
+	FROM project p2
+	WHERE p1.Department = p2.Department)
 
 
 --Q5
