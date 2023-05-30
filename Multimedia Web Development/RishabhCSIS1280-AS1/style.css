@@ -1,0 +1,25 @@
+body {
+	background-image: url(./resources/bg.jpg);
+	background-size: cover;
+	margin: 20px;
+}
+
+.nav-container {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.navbar {
+	border-radius: 22px;
+	padding-left: 8px;
+	padding-right: 8px;
+	background: none;
+	border: 3px solid skyblue;
+	box-shadow: 3px 3px;
+}
+
+.container-fluid {
+	background: none;
+}
