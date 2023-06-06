@@ -1,0 +1,154 @@
+/* Css file for class exercise */
+span,
+dt {
+	font-weight: bold;
+}
+.ol {
+	/*font-weight: bold;*/
+	font-style: italic;
+}
+#img_left {
+	float: right;
+	width: 70%;
+}
+/*image margin-bottom */
+img {
+	margin-bottom: 20px;
+}
+
+/*background color for page */
+body {
+	background-image: url("../images/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: white;
+	background-size: cover;
+}
+
+/* - no default underline for the links 
+	  - increase font size to 18px
+	*/
+
+nav > a {
+	float: left;
+	text-decoration: none;
+	font-size: 18pt;
+	color: white;
+	font-weight: bold;
+	padding: 12px 15px;
+}
+
+/* styling of the nav bar */
+nav {
+	background-color: CornflowerBlue;
+	overflow: hidden;
+	padding: 5px;
+	color: white;
+}
+
+.dropdown-btn {
+	font-size: 18pt;
+	color: white;
+	font-weight: bold;
+	padding: 12px 15px;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	width: 56px;
+}
+
+/*styling of the  dropdown menu */
+.dropdown-links {
+	list-style-type: none;
+	text-decoration: none;
+	display: none;
+	z-index: 1; /*display/position above page content */
+	position: absolute; /*position relative to parent */
+}
+
+/* styling of the dropdown link items */
+.dropdown-links > a {
+	float: none;
+	text-decoration: none;
+	display: none;
+	position: absolute; /*position relative to parent */
+	text-align: left;
+	color: black;
+	font-size: 14px;
+}
+
+/*show dropdown links when user hovers over "Resources"*/
+.dropdown:hover .dropdown-links {
+	/*float: right;*/
+	display: block;
+}
+
+.dropdown {
+	/* float: right; */
+	overflow: hidden;
+}
+
+/*pseudo class (hover) for the links */
+nav > a:hover,
+.dropdown:hover {
+	background-color: dodgerblue;
+	color: darkblue;
+}
+
+/*change background color when user hovers over dropdown list item*/
+.dropdown-links > a:hover {
+	background-color: deepskyblue;
+	text-decoration: underline;
+}
+
+/*drop-down links */
+.dropdown-links > a {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+/* .dropdown,
+.dropdown-links {
+	font-size: 18pt;
+	color: white;
+	font-weight: bold;
+} */
+
+/* table styling */
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse; /*collapses the border to single outline around the cells */
+	padding: 5px; /*space between content and border */
+}
+
+/*table caption */
+caption {
+	font-size: 18px;
+	font-weight: bold;
+	color: navy;
+}
+
+/* styling of table headings */
+thead {
+	background-color: LightSkyBlue;
+}
+
+/* styling of table body */
+tbody {
+	background-color: PaleTurquoise;
+}
+
+/* styling of table foot */
+tfoot {
+	background-color: MintCream;
+	font-style: italic;
+}
+
+/*style even-numbered table rows differebtly */
+tr:nth-child(even) {
+	background-color: LightCyan;
+}

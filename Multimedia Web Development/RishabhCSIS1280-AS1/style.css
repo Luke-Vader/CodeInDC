@@ -16,10 +16,61 @@ body {
 	padding-left: 8px;
 	padding-right: 8px;
 	background: none;
-	border: 3px solid skyblue;
+	border: 2px solid #8b8fd9;
 	box-shadow: 3px 3px;
+}
+
+.navbar-nav {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.nav-link {
+	padding: 4px;
+}
+
+.nav-link:hover {
+	border: 2px dashed #8b8fd9;
+	font-weight: bold;
 }
 
 .container-fluid {
 	background: none;
+}
+
+.container {
+	margin-left: 48px;
+	margin-right: 48px;
+	padding: 8px;
+}
+
+.content {
+	position: absolute;
+	top: 40%;
+	left: 8%;
+	padding: 48px;
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 3px 3px;
+	border: 2px solid #8b8fd9;
+}
+
+.intro__sub {
+	color: #8c8c8c;
+}
+
+.first__name {
+	color: #8fa8d9;
+}
+
+.skills__container {
+	margin-left: 48px;
+	margin-right: 48px;
+	padding: 8px;
+	display: grid;
+}
+
+.skills__image {
+	width: 480px;
+	height: auto;
 }
