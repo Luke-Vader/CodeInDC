@@ -12,7 +12,6 @@ body {
 }
 
 .navbar {
-	border-radius: 22px;
 	padding-left: 8px;
 	padding-right: 8px;
 	background: none;
@@ -81,4 +80,31 @@ body {
 
 .form__container {
 	background-color: white;
+	border: 2px solid #8b8fd9;
+	box-shadow: 3px 3px;
+}
+
+.card {
+	border: 2px solid #8b8fd9;
+	box-shadow: 3px 3px;
+	border-radius: 0px;
+}
+
+.btn {
+	border: 2px solid #8b8fd9;
+	border-radius: 0px;
+	background-color: white;
+	color: #8b8fd9;
+}
+
+.btn:hover {
+	background-color: #8b8fd9;
+	border: 2px solid #8b8fd9;
+	color: white;
+	border-radius: 0px;
+}
+
+form .btn {
+	display: block;
+	width: 100%;
 }

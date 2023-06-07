@@ -75,28 +75,47 @@
 					</div>
 				</div>
 				<div class="col p-3">
-					<div class="form__container p-3">
+					<div class="form__container my-2 p-3">
 						<form>
 							<div class="row my-1">
 								<div class="col">
+									<label class="col-form-label" for="client__name">Name</label>
 									<input
+										id="client__name"
 										type="text"
 										class="form-control"
-										placeholder="Your Name" />
+										placeholder="Enter your name" />
 								</div>
 							</div>
 							<div class="row my-1">
 								<div class="col">
-									<input type="text" class="form-control" placeholder="Email" />
+									<label class="col-form-label" for="client__email"
+										>Email</label
+									>
+									<input
+										type="text"
+										id="client__email"
+										class="form-control"
+										placeholder="Enter your email" />
 								</div>
 							</div>
-
 							<div class="row my-1">
 								<div class="col">
+									<label class="col-form-label" for="client__project"
+										>Project</label
+									>
 									<textarea
+										id="client__project"
 										rows="5"
 										class="form-control"
-										placeholder="Project"></textarea>
+										placeholder="Describe your project"></textarea>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col my-3">
+									<button type="submit" class="btn btn-primary">
+										Send Message
+									</button>
 								</div>
 							</div>
 						</form>
