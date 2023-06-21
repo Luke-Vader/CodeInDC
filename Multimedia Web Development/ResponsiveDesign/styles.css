@@ -1,0 +1,24 @@
+/* Mobile Phones */
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: #55aaff;
+	}
+}
+
+/* Tablets/Laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	body {
+		background-color: #00ffff;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	body {
+		background-color: #55aa00;
+	}
+}
+
+img {
+	width: 25%;
+	height: auto; /*This will keep the aspect ratio*/
+}

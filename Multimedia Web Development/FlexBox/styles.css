@@ -1,0 +1,29 @@
+.flexbox {
+	display: flex;
+	background-color: #dcfffb;
+	width: 800px;
+	height: 600px;
+	gap: 8px;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.box {
+	background-color: #00ff7f;
+	width: 200px;
+	height: 150px;
+}
+
+.flexbox__column {
+	display: flex;
+	background-color: #dcfffb;
+	width: 800px;
+	height: auto;
+	gap: 8px;
+	flex-direction: column;
+	flex-flow: column wrap;
+}
+
+.item4 {
+	align-self: center;
+}
