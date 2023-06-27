@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/bin/Debug/net7.0/MarkUpCalc
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/bin/Debug/net7.0/MarkUpCalc.deps.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/bin/Debug/net7.0/MarkUpCalc.runtimeconfig.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/bin/Debug/net7.0/MarkUpCalc.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/bin/Debug/net7.0/MarkUpCalc.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/MarkUpCalc.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/MarkUpCalc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/MarkUpCalc.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/MarkUpCalc.AssemblyInfo.cs
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/MarkUpCalc.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/MarkUpCalc.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/refint/MarkUpCalc.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/MarkUpCalc.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/MarkUpCalc.genruntimeconfig.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/MarkUpCalc/MarkUpCalc/obj/Debug/net7.0/ref/MarkUpCalc.dll

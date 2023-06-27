@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{C7E10BD6-06AB-4CB8-BC25-365BAD434953}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MarkUpCalc/Program.cs">
+    <Files>
+      <File FileName="MarkUpCalc/Program.cs" Line="9" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MarkUpCalc" expanded="True">
+            <Node name="MarkUpCalc" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MarkUpCalc PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
