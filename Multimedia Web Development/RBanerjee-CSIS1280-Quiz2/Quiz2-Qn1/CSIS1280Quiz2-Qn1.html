@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>image map</title>
+
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        width: 1580px;
+        flex-wrap: wrap;
+      }
+      iframe {
+        background-color: #dbe3e3;
+      }
+      body {
+        padding: 20px;
+        margin: 20px;
+        background-color: #dbe3e3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Update On Site Rehabilitation Programs In Alberta, British Columbia And
+      Saskatchewan, August 2020
+    </h1>
+
+    <hr />
+    <br />
+    <div class="container">
+      <div>
+        <h2>Western Canada Provinces</h2>
+
+        <img
+          src="images/West_Can_Provinces.png"
+          id="west_can_map"
+          alt="Western Canada Map"
+          usemap="#pacificCanada"
+        />
+
+        <map name="pacificCanada">
+          <area
+            shape="poly"
+            coords="205,272,166,145,218,23,315,56,262,286"
+            href="./content/AB_Update.html"
+            alt="Alberta"
+            target="content_frame"
+          />
+          <area
+            shape="poly"
+            coords="202,272,82,222,68,244,28,160,50,111,48,2,174,2,214,20,162,144"
+            href="./content/BC_Update.html"
+            alt="British Columbia"
+            target="content_frame"
+          />
+          <area
+            shape="poly"
+            coords="265,290,320,56,396,68,394,292"
+            href="./content/SK_Update.html"
+            alt="Saskatchewan"
+            target="content_frame"
+          />
+        </map>
+      </div>
+      <div>
+        <iframe
+          class="box"
+          name="content_frame"
+          frameborder="0"
+          width="1080"
+          height="440"
+          marginwidth="30"
+          src="content/West_Can_Provinces.html"
+          title="Western Canada Provinces"
+        ></iframe>
+      </div>
+      <div id="video_link">
+        <h2>Linked Video Content</h2>
+        <iframe
+          width="1077"
+          height="606"
+          src="https://www.youtube.com/embed/7UTOHKj-Xcc"
+          title="Hustle in Canada's oil patch"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <br /><br /><br />
+  </body>
+</html>

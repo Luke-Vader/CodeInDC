@@ -1,0 +1,21 @@
+/* Question 2 CSS file */
+
+body {
+	background-color: #c3d0cb;
+}
+article {
+	width:75%;
+}
+#form_sec {
+	float: left;
+	width: 50%;
+	/*margin-right: 10px;*/
+}
+#res_sec {
+	float: right;
+	width:40%;
+	background-color: #ccebe5;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-botton: 10px;
+}

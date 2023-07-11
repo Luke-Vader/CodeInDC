@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <h1>Target Heart Rate Calculator</h1>
+    <hr />
+    <article>
+      <section id="form_sec">
+        <form>
+          <label>Please enter your age:</label>
+          <input
+            type="text"
+            size="5"
+            name="age"
+            id="userAge"
+            value=""
+          /><br /><br />
+
+          <label>Please select your exercise intensity zone:</label><br />
+          <fieldset>
+            <input type="radio" name="zones" id="zone1" value="zone 1" />Zone 1
+            (Very light: 50% to 60% of your max heart rate)<br />
+            <input type="radio" name="zones" id="zone2" value="zone 2" />Zone 2
+            (Light: 60% to 70% of your max heart rate)<br />
+            <input type="radio" name="zones" id="zone3" value="zone 3" />Zone 3
+            (Moderate: 70% to 80% of your max heart rate)<br />
+            <input type="radio" name="zones" id="zone4" value="zone 4" />Zone 4
+            (Hard: 80% to 90% of your max heart rate)<br />
+            <input type="radio" name="zones" id="zone5" value="zone 5" />Zone 5
+            (Maximum: 90% to 100% of your max heart rate)<br />
+          </fieldset>
+          <br />
+          <input
+            type="reset"
+            name="reset"
+            id="btnReset"
+            value="Reset"
+            onclick="ClearResults()"
+          />&nbsp; &nbsp;
+          <input
+            type="button"
+            name="submit"
+            id="btnSubmit"
+            value="Submiit"
+            onclick="calcHeartRateZones()"
+          />
+        </form>
+      </section>
+      <section id="res_sec">
+        <h3>Target Heart Rate Results</h3>
+        <div id="result"></div>
+      </section>
+    </article>
+
+    <!--- LINK TO JAVASCRIPT FILE -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
