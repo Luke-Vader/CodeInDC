@@ -1,0 +1,9 @@
+const firebaseConfig = {
+	apiKey: "AIzaSyCihFlCkJxVAtj1gpkr3fa-yI_Rea_mwhs",
+	authDomain: "board-6406c.firebaseapp.com",
+	projectId: "board-6406c",
+	storageBucket: "board-6406c.appspot.com",
+	messagingSenderId: "64154231773",
+	appId: "1:64154231773:web:529105d6863b32763d8c34",
+	measurementId: "G-MR7BR84GQ0",
+};
