@@ -8,5 +8,10 @@ public class Bicycle {
 
     ImageIcon bicon = new ImageIcon(bimage);
 
+    public static void main(String[] args) {
+        Bicycle form = new Bicycle();
+
+        form.
+    }
 
 }
