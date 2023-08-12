@@ -1,87 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>board.com</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../styles/styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">board.com</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Notes</a>
-              <a class="nav-link" href="#">Kanban</a>
-              <a class="nav-link" href="#">To Do</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>board.com</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../styles/styles.css" />
+	</head>
+	<body class="index">
+		<header>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">board.com</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#">Notes</a>
+							<a class="nav-link" href="#">Kanban</a>
+							<a class="nav-link" href="#">To Do</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-    <section id="overview">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 dashboard__header container">
-            <div id="time"></div>
-            <div id="greeting"></div>
-            <div id="date"></div>
-          </div>
-        </div>
-      </div>
-    </section>
+		<section id="overview">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 dashboard__header container">
+						<div id="time"></div>
+						<div id="greeting"></div>
+						<div id="date"></div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section id="note_content">
-      <div class="container">
-        <div class="row">
-          <div class="col-3 notes tile__header">
-            <h2>Notes</h2>
-          </div>
+		<section id="note_content">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 notes tile__header">
+						<h2>Notes</h2>
+					</div>
 
-          <div class="col-3 kanban tile__header">
-            <h2>Kanban</h2>
-          </div>
+					<div class="col-3 kanban tile__header">
+						<h2>Kanban</h2>
+					</div>
 
-          <div class="col-3 todo tile__header">
-            <h2>To Do</h2>
-          </div>
+					<div class="col-3 todo tile__header">
+						<h2>To Do</h2>
+					</div>
 
-          <div class="col-3 summary tile__header">
-            <h2>Summary</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
-    <script></script>
-    <script src="../scripts/script.js" async defer></script>
-  </body>
+					<div class="col-3 summary tile__header">
+						<h2>Summary</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+		<script></script>
+		<script src="../scripts/script.js" async defer></script>
+	</body>
 </html>

@@ -50,3 +50,80 @@ body {
 	text-shadow: 2px 0px 2px #999;
 	border: 1px solid black;
 }
+
+.login__title {
+	text-align: center;
+	color: #4b8054;
+}
+
+.login__welcome {
+	text-align: center;
+	color: #5f6b61;
+	font-family: serif;
+	font-weight: lighter;
+}
+
+.login__container {
+	padding: 3%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	border: black 1px solid;
+	background-color: #d4eed8;
+	box-shadow: 5px 5px;
+}
+
+.login__subtitle {
+	text-align: center;
+	color: #5f6b61;
+	font-weight: 300;
+}
+
+#register_user {
+	width: 100%;
+	text-align: center;
+	background-color: #5f6b61;
+	border: none;
+}
+
+#register_user:hover {
+	background-color: #4b8054;
+}
+
+.login__forgot {
+	text-align: end;
+	font-weight: 100;
+	color: #4b8054;
+	font-style: none;
+}
+
+.register__welcome {
+	text-align: center;
+	font-family: serif;
+	color: #5f6b61;
+	font-weight: lighter;
+}
+
+.register__container {
+	padding: 3%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	border: black 1px solid;
+	background-color: #d4eed8;
+	box-shadow: 5px 5px;
+}
+
+.register__subtitle {
+	text-align: center;
+	color: #5f6b61;
+	font-weight: 300;
+}
+
+.register__title {
+	text-align: center;
+	color: #4b8054;
+}
+
+.reg__form__container {
+	padding-left: 15%;
+	padding-right: 15%;
+}
