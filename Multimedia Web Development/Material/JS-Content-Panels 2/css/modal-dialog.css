@@ -1,0 +1,38 @@
+body {font-family: Arial, Helvetica, sans-serif;
+	background-color: cyan;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+
+  width: 600px; 
+  height: auto; 
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,255,255); /* cyan */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: azure;
+  padding: 20px;
+  border: 1px solid #888;
+  margin-left: 100px;
+  visibility: hidden;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

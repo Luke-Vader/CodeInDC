@@ -1,0 +1,1 @@
+const dirtyDozen = ["Strawberies", "Spinach", "Kale, collard and mustard greens", "Nectarines", "Apples", "Grapes", "Bell and hot peppers", "Cherries", "Peaches", "Pears", "Celery", "Tomatoes"]
