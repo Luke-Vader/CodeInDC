@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                float lengthSquared = Integer.parseInt(height.getText().toString()) * Integer.parseInt(height.getText().toString());
-                float weight = Integer.parseInt(mass.getText().toString());
+                float lengthSquared = Float.parseFloat(height.getText().toString()) * Float.parseFloat(height.getText().toString());
+                float weight = Float.parseFloat(mass.getText().toString());
                 float bmi = weight/lengthSquared;
                 result.setText("" + bmi);
             }
