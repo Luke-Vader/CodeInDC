@@ -13,6 +13,7 @@ public class Repo {
     public ArrayList<Customer> initialData(){
 
         Customer c = new Customer();
+        list.clear();
 
         c.setEmail("johndoe@gmail.com");
         c.setName("John Doe");

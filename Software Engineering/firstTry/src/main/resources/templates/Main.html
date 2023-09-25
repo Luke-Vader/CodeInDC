@@ -27,13 +27,36 @@
                 <tr th:each="p:${customers}">
                     <td th:text="${p.getName()}" ></td>
                     <td th:text="${p.getEmail()}" ></td>
+                    <td>
+                        <a class="btn btn-success" th:href="@{editCustomer(id=${p.email})}"> Edit </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" th:href="@{deleteCustomer(id=${p.email})}"> Delete </a>
+                    </td>
                 </tr>
             </tbody>
-            <tr>
-                <td></td>
-            </tr>
         </table>
     </div>
+
+    <div class="container mt-3">
+
+        <form method="post" th:action="@{empInsert}">
+            <p>Enter Customer Name: </p>
+            <input type="text" class="form-control" name="name" th:value="${customer.name==null?'':customer.getName()}" />
+            <span th:errors="${customer.name}"></span>
+
+            <p>Enter Customer Email: </p>
+            <input type="email" class="form-control" name="email" th:value="${customer.email==null?'':customer.getEmail()}" />
+            <span th:errors="${customer.email}"></span>
+
+            </br>
+            </br>
+
+            <button type="submit" class="btn btn-primary" th:href="@{/Main}"> Add / Edit </button>
+
+        </form>
+    </div>
+
 </div>
 
 
