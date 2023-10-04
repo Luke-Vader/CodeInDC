@@ -1,23 +1,26 @@
 ﻿<Properties StartupConfiguration="{A8D06AEE-45DC-4561-837B-C0B2E9A3E29E}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.RegistrationReport PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="RegistrationReport/Program.cs">
     <Files>
-      <File FileName="RegistrationReport/Program.cs" Line="28" Column="36" />
+      <File FileName="RegistrationReport/Program.cs" Line="4" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RegistrationReport" expanded="True">
-            <Node name="RegistrationReport" expanded="True" />
-          </Node>
+          <Node name="RegistrationReport" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="RegistrationReport" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/RainfallAnalysis.csproj",
+      "projectUniqueName": "/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/RainfallAnalysis/RainfallAnalysis/RainfallAnalysis.csproj",
       "projectName": "RainfallAnalysis",
-      "projectPath": "/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/RainfallAnalysis.csproj",
+      "projectPath": "/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/RainfallAnalysis/RainfallAnalysis/RainfallAnalysis.csproj",
       "packagesPath": "/Users/rishabhbanerjee/.nuget/packages/",
-      "outputPath": "/Users/rishabhbanerjee/Projects/RainfallAnalysis/RainfallAnalysis/obj/",
+      "outputPath": "/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/RainfallAnalysis/RainfallAnalysis/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rishabhbanerjee/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }
