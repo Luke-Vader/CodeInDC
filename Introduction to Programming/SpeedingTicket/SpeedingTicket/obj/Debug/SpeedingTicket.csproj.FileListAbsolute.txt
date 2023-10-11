@@ -1,0 +1,8 @@
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SpeedingTicket\SpeedingTicket\bin\Debug\SpeedingTicket.exe.config
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SpeedingTicket\SpeedingTicket\bin\Debug\SpeedingTicket.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SpeedingTicket\SpeedingTicket\bin\Debug\SpeedingTicket.pdb
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SpeedingTicket\SpeedingTicket\obj\Debug\SpeedingTicket.csproj.AssemblyReference.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SpeedingTicket\SpeedingTicket\obj\Debug\SpeedingTicket.csproj.SuggestedBindingRedirects.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SpeedingTicket\SpeedingTicket\obj\Debug\SpeedingTicket.csproj.CoreCompileInputs.cache
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SpeedingTicket\SpeedingTicket\obj\Debug\SpeedingTicket.exe
+C:\Users\300374594\Documents\GitHub\CodeInDC\Introduction to Programming\SpeedingTicket\SpeedingTicket\obj\Debug\SpeedingTicket.pdb

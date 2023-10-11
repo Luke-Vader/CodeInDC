@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedingTicket", "SpeedingTicket\SpeedingTicket.csproj", "{D6539E68-1B6C-4DA4-80C7-8CBA469EC844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6539E68-1B6C-4DA4-80C7-8CBA469EC844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6539E68-1B6C-4DA4-80C7-8CBA469EC844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6539E68-1B6C-4DA4-80C7-8CBA469EC844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6539E68-1B6C-4DA4-80C7-8CBA469EC844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5A02DED-5A93-4C1C-BF63-B6D582C4BF4A}
+	EndGlobalSection
+EndGlobal
