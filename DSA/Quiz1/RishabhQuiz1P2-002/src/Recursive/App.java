@@ -18,6 +18,8 @@ public class App {
 	 */
 	public static void main(String[] args) {
 		
+//		System.out.println(myFun(6));
+		
 		Scanner sc = new Scanner(System.in);
 //		int arr[] = {1,5,6,8,9,7,3,0,2};
 		ArrayList<Integer> sampleData = new ArrayList<>();
@@ -63,8 +65,27 @@ public class App {
 		//search query
 		System.out.print("\n\nEnter Element to Search: ");
 		int x = sc.nextInt();
-		System.out.println(x + " was found at index " + recursiveSearch(arr, x));
+		System.out.println(x + " was found at index " + realRecursiveSearch(arr, x, arr.length));
 		sc.close();
+		
+		
+	}
+	
+	/**
+	 * expected method for linear search in a recursive method
+	 * @param arr
+	 * @param x
+	 * @param size
+	 * @return
+	 */
+	public static int realRecursiveSearch(int arr[], int x, int size) {
+		
+		if (size == 0) {
+			return -1;
+		} else if (arr[size - 1] == x) {
+			return --size;
+		}
+		return realRecursiveSearch(arr, x, --size);
 	}
 	
 	/**
@@ -92,5 +113,17 @@ public class App {
 			return recursiveSearch(newArr, x);
 		}
 	}
+	
+	//theory question
+	public static int myFun(int n) {
+		if (n == 0) {
+			return 0;
+		} else if (n == 1) {
+			return 1;
+		} else {
+			return myFun(n-1) + myFun(n-2);
+		}
+	}
+	
 
 }
