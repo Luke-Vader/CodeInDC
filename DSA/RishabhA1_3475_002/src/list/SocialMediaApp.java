@@ -50,7 +50,8 @@ public class SocialMediaApp {
 	 * @return Person
 	 */
 	private Person initPerson() {
-		
+	
+		//data declarations
 		String name, email, location;
 		
 		System.out.print("\nEnter Following Details for Person - "
@@ -60,9 +61,8 @@ public class SocialMediaApp {
 		email = input.next();
 		System.out.println("Location: ");
 		location = input.next();
-		
+	
 		return new Person(name, email, location);
-		
 		
 	}
 
