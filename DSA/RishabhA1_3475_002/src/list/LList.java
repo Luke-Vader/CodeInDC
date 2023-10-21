@@ -1,48 +1,53 @@
 package list;
 
+/**
+ * This class implements the ListInterface and provides the implementation of
+ * the methods declared in the interface
+ * 
+ * @param <T>
+ */
 public class LList<T> implements ListInterface<T> {
 
 	private Node firstNode;
 	private int size;
-	
+
 	public void init() {
 		this.firstNode = null;
 		this.size = 0;
 	}
-	
+
 	public LList() {
 		init();
 	}
-	
+
 	@Override
 	public void add(T newEntry) {
-
 		Node node = new Node(newEntry);
-		
 		if (isEmpty()) {
 			this.firstNode = node;
 		} else {
-			Node lastNode = getNodeAt(size);
-			lastNode.setNextNode(node);
+			Node currentNode = firstNode;
+			while (currentNode.hasNext()) {
+				currentNode = currentNode.nextNode;
+			}
+			currentNode.nextNode = node;
 		}
 		this.size++;
-
 	}
 
 	@Override
 	public void add(int newPosition, T newEntry) {
-		
+
 		if (newPosition >= 1
-		&& newPosition < this.size) {
+				&& newPosition <= this.size + 1) {
 			Node node = new Node(newEntry);
 			if (newPosition == 1) {
 				node.nextNode = this.firstNode;
 				this.firstNode = node;
 			} else {
 				Node previousNode = getNodeAt(newPosition - 1);
-				Node nextNode = previousNode.getNextNode();
-				node.setNextNode(nextNode);
-				previousNode.setNextNode(node);
+				node.nextNode = previousNode.nextNode;
+				previousNode.nextNode = node;
 			}
 			this.size++;
 		} else {
@@ -50,13 +55,28 @@ public class LList<T> implements ListInterface<T> {
 		}
 	}
 
+	public void remove(T element) {
+		if (isEmpty()) {
+			raiseException(2);
+		} else {
+			Node node = this.firstNode;
+			for (int i = 1; i <= this.size; i++) {
+				if (element == node.data) {
+					remove(i);
+					break;
+				} else
+					node = node.nextNode;
+			}
+		}
+	}
+
 	@Override
 	public T remove(int givenPosition) {
-		
+
 		if (givenPosition > size) {
 			this.raiseException(1);
 			return null;
-		}else if (isEmpty()) {
+		} else if (isEmpty()) {
 			this.raiseException(2);
 			return null;
 		} else if (givenPosition == 1) {
@@ -67,7 +87,7 @@ public class LList<T> implements ListInterface<T> {
 		} else {
 			Node node = getNodeAt(givenPosition);
 			Node previousNode = getNodeAt(givenPosition - 1);
-			
+
 			if (givenPosition == size) {
 				previousNode.setNextNode(new Node());
 				this.size--;
@@ -77,7 +97,8 @@ public class LList<T> implements ListInterface<T> {
 						node.getNextNode());
 				this.size--;
 				return node.data;
-			} else return null;
+			} else
+				return null;
 		}
 	}
 
@@ -88,7 +109,7 @@ public class LList<T> implements ListInterface<T> {
 
 	@Override
 	public T replace(int givenPosition, T newEntry) {
-		
+
 		if (isEmpty()) {
 			raiseException(2);
 			return null;
@@ -97,20 +118,31 @@ public class LList<T> implements ListInterface<T> {
 			return null;
 		} else {
 			Node node = getNodeAt(givenPosition);
-			node.setData(newEntry);
+			node.data = newEntry;
 			return node.data;
 		}
 	}
 
 	@Override
 	public T getEntry(int givenPosition) {
-		return this.getNodeAt(givenPosition).getData();
+		return this.getNodeAt(givenPosition).data;
 	}
 
 	@Override
 	public T[] toArray() {
-		// TODO Auto-generated method stub
-		return null;
+
+		T[] array = (T[]) new Object[size];
+		if (this.isEmpty()) {
+			array[0] = firstNode.data;
+			for (int i = 1; i <= size; i++) {
+				Node node = firstNode;
+				array[i - 1] = node.nextNode.data;
+			}
+			return array;
+		} else {
+			raiseException(2);
+			return array;
+		}
 	}
 
 	@Override
@@ -120,10 +152,11 @@ public class LList<T> implements ListInterface<T> {
 			return false;
 		} else {
 			Node node = this.firstNode;
-			for (int i = 0; i < this.size; i++) {
-				if (anEntry == node.getData()) {
+			for (int i = 1; i < this.size; i++) {
+				if (anEntry == node.data) {
 					return true;
-				} else node = node.getNextNode();
+				} else
+					node = node.nextNode;
 			}
 			return false;
 		}
@@ -138,62 +171,67 @@ public class LList<T> implements ListInterface<T> {
 	public boolean isEmpty() {
 		if (this.size == 0)
 			return true;
-		else 
+		else
 			return false;
 	}
-	
+
 	private Node getNodeAt(int givenPosition) {
-		if (!isEmpty()) {	
+		if (!isEmpty()) {
 			Node node = this.firstNode;
 			for (int i = 1; i < givenPosition; i++)
-				node = node.getNextNode();
+				node = node.nextNode;
 			return node;
-		} else return null;
+		} else
+			raiseException(2);
+		return null;
 	}
-	
+
 	private void raiseException(int exc) {
 		switch (exc) {
-		case 1 -> 	//position is greater than size
-		throw new IndexOutOfBoundsException(
-				"Illegal position provided. Size of current list: " 
-				+ this.size);
-		case 2 ->	//empty list
-		throw new NullPointerException(
-				"List is Empty.");
-		default ->
-		throw new IllegalArgumentException(
-				"Unexpected value");
+			case 1 -> // position is greater than size
+				throw new IndexOutOfBoundsException(
+						"Illegal position provided. Size of current list: "
+								+ this.size);
+			case 2 -> // empty list
+				throw new NullPointerException(
+						"List is Empty.");
+			default ->
+				throw new IllegalArgumentException(
+						"Unexpected value");
 		}
 	}
-	
+
 	/**
 	 * inner Node class
 	 */
-	private class Node{	
-		
+	private class Node {
+
 		/**
 		 * data contains the information stored in the node
-		 * nextNode is the reference to the node present in the next position 
+		 * nextNode is the reference to the node present in the next position
 		 */
 		private T data;
 		private Node nextNode;
-		
+
 		/**
 		 * default constructor
 		 */
-		public Node() {}
-		
+		public Node() {
+		}
+
 		/**
 		 * constructor to set initial node
+		 * 
 		 * @param data
 		 */
 		private Node(T data) {
 			this.data = data;
 			this.nextNode = null;
 		}
-		
+
 		/**
 		 * constructor to create node and set next node as well
+		 * 
 		 * @param data
 		 * @param nextNode
 		 */
@@ -204,6 +242,7 @@ public class LList<T> implements ListInterface<T> {
 
 		/**
 		 * returns the data store inside the Node
+		 * 
 		 * @return
 		 */
 		public T getData() {
@@ -212,6 +251,7 @@ public class LList<T> implements ListInterface<T> {
 
 		/**
 		 * modifies the data inside the Node
+		 * 
 		 * @param data
 		 */
 		public void setData(T data) {
@@ -220,6 +260,7 @@ public class LList<T> implements ListInterface<T> {
 
 		/**
 		 * to fetch the next node in the list
+		 * 
 		 * @return
 		 */
 		public Node getNextNode() {
@@ -228,14 +269,20 @@ public class LList<T> implements ListInterface<T> {
 
 		/**
 		 * modifies the next node set to the current node
+		 * 
 		 * @param nextNode
 		 */
 		public void setNextNode(Node nextNode) {
 			this.nextNode = nextNode;
 		}
-		
-		
-		
+
+		public boolean hasNext() {
+			if (this.nextNode != null)
+				return true;
+			else
+				return false;
+		}
+
 	}
 
 }
