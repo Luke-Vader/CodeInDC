@@ -1,0 +1,15 @@
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/bin/Debug/net7.0/TwoDimensionalArray
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/bin/Debug/net7.0/TwoDimensionalArray.deps.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/bin/Debug/net7.0/TwoDimensionalArray.runtimeconfig.json
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/bin/Debug/net7.0/TwoDimensionalArray.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/bin/Debug/net7.0/TwoDimensionalArray.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/TwoDimensionalArray.csproj.AssemblyReference.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/TwoDimensionalArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/TwoDimensionalArray.AssemblyInfoInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/TwoDimensionalArray.AssemblyInfo.cs
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/TwoDimensionalArray.csproj.CoreCompileInputs.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/TwoDimensionalArray.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/refint/TwoDimensionalArray.dll
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/TwoDimensionalArray.pdb
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/TwoDimensionalArray.genruntimeconfig.cache
+/Users/rishabhbanerjee/Documents/GitHub/CodeInDC/Introduction to Programming/TwoDimensionalArray/TwoDimensionalArray/obj/Debug/net7.0/ref/TwoDimensionalArray.dll

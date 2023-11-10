@@ -9,7 +9,8 @@ public class Insertion {
 	public static void main(String[] args) {
 		
 //		int arr[] = {1,6,3,4,8,0,2,3,5,2,5,7,2};
-		int arr[] = {5,7,4,9,8,5,6,3};
+		int arr[] = {100, 2, 9, 101, 16, 27, 15};
+		
 		printArray(arr);
 		insertionSort(arr);
 		System.out.print("Final Sorted Array: ");
