@@ -1,0 +1,10 @@
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\obj\Debug\TaxApp.csproj.AssemblyReference.cache
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\obj\Debug\TaxApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\obj\Debug\TaxApp.Properties.Resources.resources
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\obj\Debug\TaxApp.csproj.GenerateResource.cache
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\obj\Debug\TaxApp.csproj.CoreCompileInputs.cache
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\bin\Debug\TaxApp.exe.config
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\bin\Debug\TaxApp.exe
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\bin\Debug\TaxApp.pdb
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\obj\Debug\TaxApp.exe
+C:\Users\300374594\Desktop\SA_Example_C#\TaxApp\TaxApp\obj\Debug\TaxApp.pdb
