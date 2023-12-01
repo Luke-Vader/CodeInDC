@@ -3,15 +3,13 @@
   <MonoDevelop.Ide.ItemProperties.TwoDimensionalArray PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TwoDimensionalArray/Program.cs">
     <Files>
-      <File FileName="TwoDimensionalArray/Program.cs" Line="81" Column="6" />
+      <File FileName="TwoDimensionalArray/Program.cs" Line="8" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TwoDimensionalArray" expanded="True">
-            <Node name="TwoDimensionalArray">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="TwoDimensionalArray" expanded="True" />
           </Node>
         </State>
       </Pad>
