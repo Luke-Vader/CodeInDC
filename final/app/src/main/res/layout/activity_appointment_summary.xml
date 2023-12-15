@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:padding="16dp"
+    android:paddingTop="32dp">
+
+    <!-- Appointment Summary Title -->
+    <TextView
+        android:id="@+id/tvAppointmentSummaryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Appointment Summary"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- Name Field -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAppointmentSummaryTitle"
+        android:layout_marginTop="24dp"
+        android:text="Name: Peter Smith" />
+
+    <!-- Email Field -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:layout_marginTop="16dp"
+        android:text="Email: peter.smith@gmail.com" />
+
+    <!-- Start Time Field -->
+    <TextView
+        android:id="@+id/tvStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEmail"
+        android:layout_marginTop="16dp"
+        android:text="Start time: 2023/12/18 at 17:30" />
+
+    <!-- Duration Field -->
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvStartTime"
+        android:layout_marginTop="16dp"
+        android:text="Duration: 45 minutes" />
+
+    <!-- Professor Name Field -->
+    <TextView
+        android:id="@+id/tvProfessorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDuration"
+        android:layout_marginTop="16dp"
+        android:text="With Prof: Jane Peters" />
+
+    <!-- Courses Field -->
+    <TextView
+        android:id="@+id/tvCourses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvProfessorName"
+        android:layout_marginTop="16dp"
+        android:text="About courses: CSIS 3276 3377" />
+
+    <!-- Change Appointment Button -->
+    <Button
+        android:id="@+id/btnChangeAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCourses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Change my appointment"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
